@@ -8,15 +8,34 @@ Como funciona o estilo em cascata do CSS?
 
     Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho.*/
 
+/*Falando sobre dimensões no CSS, temos quatro parâmetros muito importantes. A largura de um elemento, a altura do elemento, e os espaçamentos. Espaçamento interno e espaçamento externo.
+
+/* A dimensão de altura é muito fácil de identificar. Eu insiro com height e coloco em pixels, por exemplo, 100 pixels, ou 100px.
+
+A largura de um elemento geralmente é adicionada em pixels, ou podemos também colocar a largura em percentual. Se eu quero que ocupe a página inteira, vou colocar 100%.*/
+
 body { /*# 0- ausência de cores; f - Máximo de cores */
     background: #CCCCCC
+}
+
+#banner { 
+    width: 100%;/* O width é a propriedade que devemos manipular para alterar a largura do elemento.*/
+}
+
+h1 {
+    text-align: center;
 }
 
 p   {
     text-align: center;
 }
 
+#missao { /*marcador de identificação. É o id. Vamos colocar id = “”. Entre as aspas você coloca um nome qualquer, que é o mesmo que vai ser usado no nosso CSS.*/
+    font-size: 20px;
+}
+
 em strong {  /* para definição do CSS. É definida em INLINE ou Estrutural. Para representar as cores existe 3 Formas: hexadecimal(#000000 a #FFFFFF), RGB o a 255 (255, 255, 255,) e cores básicas  */ 
     color: #FF0000;
 }
 
+/*developer tools temos uma divisão muito clara entre o que é o HTML, o que é o CSS e o que está sendo exibido no nosso elemento. Fundamental para entendermos e trabalharmos com desenvolvimento.*/
