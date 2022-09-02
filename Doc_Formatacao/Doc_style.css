@@ -1,0 +1,22 @@
+/*No vídeo a seguir, vamos descobrir que existem três formas de configurarmos o CSS. A que fizemos até agora foi a primeira delas, a chamada CSS inline. Ou seja, na linha onde temos nossa tag, adicionamos a propriedade do CSS. A segunda é incluindo a estilização em cada tag na propriedade style, no mesmo arquivo html.
+
+A terceira forma é através de um arquivo externo. Para que a estilização seja aplicada de forma correta, fique atento:
+
+Se pensarmos em níveis hierárquicos, todas elas estão dentro da tag body. Ou seja, a tag body é pai de todas essas tags.
+
+Como funciona o estilo em cascata do CSS?
+
+    Como é uma folha de estilos em cascata, a cascata vai descendo, e o que eu faço no elemento pai reflete para o elemento filho.*/
+
+body { /*# 0- ausência de cores; f - Máximo de cores */
+    background: #CCCCCC
+}
+
+p   {
+    text-align: center;
+}
+
+em strong {  /* para definição do CSS. É definida em INLINE ou Estrutural. Para representar as cores existe 3 Formas: hexadecimal(#000000 a #FFFFFF), RGB o a 255 (255, 255, 255,) e cores básicas  */ 
+    color: #FF0000;
+}
+

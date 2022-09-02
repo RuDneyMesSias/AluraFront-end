@@ -9,18 +9,27 @@
         <meta charset="UTF-8"> <!--O nome da tag é meta, ela passa informações para o navegador. Dentro dela, reparem que diferente do h1, que é uma tag de conteúdo, colocamos uma propriedade dentro dela. Temos o atributo charset, que é o conjunto de caracteres, o characters set, que é o dicionário que estamos escolhendo. E escolhemos o dicionário UTF8. Ele tem as linguagens Unicode, ASCII, mas o mais importante que você deve saber é que ela tem todos os caracteres que são usados na maioria das línguas da Europa, da América Central, América do Norte, América do Sul. A maioria das linguagens com que trabalhamos no dia a dia.-->
 
         <title>Barbearia Alura</title> <!--tag chamada “title”, que é o título da página.-->
+        <link rel="stylesheet" href="Doc_style.css">
+        
+        <!--outra forma de aplicação do CSS. 
+
+        <style>
+            p {
+                text-align: center
+            }
+        </style>-->
 
     </head>
     <body><!--O HTML é dividido em duas partes. A primeira delas é o head, e a segunda é o body.
     head é cabeça e body é corpo. Se pensarmos em um documento, a cabeça são as informações que estamos passando para o navegador e o corpo são as informações que queremos exibir na página.-->
 
-        <h1>Sobre a Barbearia Alura</h1>
+        <h1 style="text-align: center; ">Sobre a Barbearia Alura</h1> <!--CSS inline -->
 
         <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
         <p><em>Nossa missão é: <strong><!--Fazemos uma marcação de destaque em toda a frase e uma marcação de ênfase na palavra exemplo.-->"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-        <p></p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p><!--As tags são semânticas e para cada uma delas temos um significado e um resultado diferente.-->
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p><!--As tags são semânticas e para cada uma delas temos um significado e um resultado diferente.-->
 
         <!--Uma página web tem o seu conteúdo com HTML. Nós usamos o HTML para fazer uma marcação desse texto. O HTML quer dizer “hyper text markup language”. Uma linguagem de marcação de texto. Para marcarmos esse texto, precisamos usar o que são chamadas de “tags”. O formato de uma tag é um sinal de < um nome qualquer e um sinal de >. Isso é o que fecha uma tag. É o conteúdo que vamos ter para uma tag.-->
     
@@ -28,3 +37,9 @@
 
     </body>
 </html>
+
+<!--O CSS, que em uma tradução seria folha de estilo em cascata, é a forma como mexemos em cada um dos elementos granularmente, em cada um dos pontos desses elementos para podermos apresentar o nosso site do modo como quisermos.
+
+                    <h1 style="text-align: center">Conteúdo</h1>
+
+    Nesse parágrafo vou adicionar a propriedade style, que é o estilo do nosso elemento. Dentro do style e entre aspas vou inserir o que quero alterar. Nesse caso, quero alterar o tamanho da fonte. Para fazer isso, sempre em inglês, tamanho da fonte, font size.-->

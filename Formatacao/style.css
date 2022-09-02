@@ -1,0 +1,7 @@
+/*No vídeo a seguir, vamos descobrir que existem três formas de configurarmos o CSS. A que fizemos até agora foi a primeira delas, a chamada CSS inline. Ou seja, na linha onde temos nossa tag, adicionamos a propriedade do CSS. A segunda é incluindo a estilização em cada tag na propriedade style, no mesmo arquivo html.
+
+A terceira forma é através de um arquivo externo. Para que a estilização seja aplicada de forma correta, fique atento:*/
+
+p{
+    text-align: center;
+}
