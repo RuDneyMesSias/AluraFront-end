@@ -15,11 +15,16 @@ Como funciona o estilo em cascata do CSS?
 A largura de um elemento geralmente é adicionada em pixels, ou podemos também colocar a largura em percentual. Se eu quero que ocupe a página inteira, vou colocar 100%.*/
 
 body { /*# 0- ausência de cores; f - Máximo de cores */
-    background: #CCCCCC
+    
 }
 
 #banner { 
     width: 100%;/* O width é a propriedade que devemos manipular para alterar a largura do elemento.*/
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
 }
 
 h1 {
@@ -30,12 +35,38 @@ p   {
     text-align: center;
 }
 
-#missao { /*marcador de identificação. É o id. Vamos colocar id = “”. Entre as aspas você coloca um nome qualquer, que é o mesmo que vai ser usado no nosso CSS.*/
+#missão { /*marcador de identificação. É o id. Vamos colocar id = “”. Entre as aspas você coloca um nome qualquer, que é o mesmo que vai ser usado no nosso CSS.*/
     font-size: 20px;
 }
 
 em strong {  /* para definição do CSS. É definida em INLINE ou Estrutural. Para representar as cores existe 3 Formas: hexadecimal(#000000 a #FFFFFF), RGB o a 255 (255, 255, 255,) e cores básicas  */ 
     color: #FF0000;
 }
+
+.itens { /* O problema de usarmos as tags é que todas as listas do nosso site terão o mesmo estilo. E o problema de usar identificadores é que eles são únicos. Ou seja, temos uma lista com quatro itens e para marcar cada um deles, teríamos que criar quatro identificadores. Existe uma solução para isso. É o conceito das classes no CSS. As classes no CSS servem para marcarmos itens, para posteriormente colocarmos estilo em cada um deles, só que são repetíveis. Ou seja, podemos marcar todos os nossos itens com a mesma classe.*/
+    font-style: italic;
+}
+
+.benefícios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block; /*existe uma terceira característica, quando o elemento possui as duas condições. Ele é inline e block ao mesmo tempo. Ou seja, ele bloqueia uma largura, mas essa largura é fixa. Sou eu que dou o tamanho. E ele me deixa também mexer na largura e nos espaçamentos interno e externo.*/
+
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagemBeneficios { /*A class serve para replicarmos a aplicação do nosso CSS, sem precisar copiar e colá-lo em vários elementos. Aplicamos a classe para isso.*/
+    width: 50%;
+}
+
 
 /*developer tools temos uma divisão muito clara entre o que é o HTML, o que é o CSS e o que está sendo exibido no nosso elemento. Fundamental para entendermos e trabalharmos com desenvolvimento.*/
