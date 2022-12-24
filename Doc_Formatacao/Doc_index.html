@@ -10,7 +10,7 @@
 
         <title>Barbearia Alura</title> <!--tag chamada “title”, que é o título da página.-->
         <link rel="stylesheet" href="Doc_style.css">
-        
+
         <!--outra forma de aplicação do CSS. 
 
         <style>
@@ -20,17 +20,26 @@
         </style>-->
 
     </head>
+
+
     <body><!--O HTML é dividido em duas partes. A primeira delas é o head, e a segunda é o body.
     head é cabeça e body é corpo. Se pensarmos em um documento, a cabeça são as informações que estamos passando para o navegador e o corpo são as informações que queremos exibir na página.-->
+
+    <header><!--criar um cabeçalho na página. A tag header é uma tag de conteúdo do HTML, e não uma tag de estrutura. 
+        Não confunda head com header-->
+
+        <h1 class="titulo-plincipal">Barbearia Alura</h1>
+
+    </header>
     
-    <img id="banner" src="Doc_Imagem/banner.jpg"><!--A tag img serve para chamarmos uma imagem, e como ela é um arquivo externo, precisamos dizer onde está, dizer qual a fonte dessa imagem . A primeira vai englobar o h1 e os três parágrafos, e aí vamos intentar isso para ficar correto.-->
+    <img id="banner" src="Imagem/banner.jpg"><!--A tag img serve para chamarmos uma imagem, e como ela é um arquivo externo, precisamos dizer onde está, dizer qual a fonte dessa imagem . A primeira vai englobar o h1 e os três parágrafos, e aí vamos intentar isso para ficar correto.-->
 
         <div class="principal"> <!--queremos criar mais uma divisão no nosso site, uma separação entre as duas seções.-->
-        
-        <!--Precisamos de especificidade, precisamos ou criar um identificador, ou criar uma classe.-->
-    
 
-            <h1>Sobre a Barbearia Alura</h1> <!--CSS inline -->
+        <!--Precisamos de especificidade, precisamos ou criar um identificador, ou criar uma classe.-->
+
+
+            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2> <!--CSS inline -->
 
             <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
@@ -39,11 +48,12 @@
             <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p><!--As tags são semânticas e para cada uma delas temos um significado e um resultado diferente.-->
 
             <!--Uma página web tem o seu conteúdo com HTML. Nós usamos o HTML para fazer uma marcação desse texto. O HTML quer dizer “hyper text markup language”. Uma linguagem de marcação de texto. Para marcarmos esse texto, precisamos usar o que são chamadas de “tags”. O formato de uma tag é um sinal de < um nome qualquer e um sinal de >. Isso é o que fecha uma tag. É o conteúdo que vamos ter para uma tag.-->
-        
+
             <!--Para o primeiro título da página, vamos usar h1. Já na sequência, vamos ter o primeiro parágrafo de texto. O parágrafo de texto é marcado com a tag “p", de paragraph. Vamos fazer isso para o segundo e terceiro parágrafo também.-->
         </div>
         <div class="benefícios">
-            <h2>Benefícios</h2>
+
+            <h3 class="titulo-centralizado">Benefícios</h3>
 
             <ul>
                 <li class="itens">Atendimento aos clientes</li>
@@ -54,7 +64,7 @@
 
             <!--Já nas listas não ordenadas, a ordem é flexível, e não altera o resultado final.-->
 
-            <img src="Doc_Imagem/beneficios.jpg" class="imagemBeneficios">
+            <img src="Imagem/beneficios.jpg" class="imagemBeneficios">
         </div>
     </body>
 </html>

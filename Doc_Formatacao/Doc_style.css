@@ -27,7 +27,11 @@ body { /*# 0- ausência de cores; f - Máximo de cores */
     padding: 30px;
 }
 
-h1 {
+.titulo-plincipal {
+    padding-left: 20px;/*definição de uma classe que será utilizada para estilizar a tag <h1> no CSS*/
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 
@@ -50,10 +54,6 @@ em strong {  /* para definição do CSS. É definida em INLINE ou Estrutural. Pa
 .benefícios {
     background: #FFFFFF;
     padding: 20px;
-}
-
-h2 {
-    text-align: center;
 }
 
 ul {
