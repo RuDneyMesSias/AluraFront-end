@@ -32,3 +32,36 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }/*essa classe é chamada de navegação, isso é uma coisa muito comum no dia-a-dia, todos o site tem essa estrutura de links para serem navegados entre os sites. Dentro do cabeçalho, a gente vai envolver toda a nossa lista, todo nosso "ul" com a tag nav.*/
+
+.produtos   {  
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li    {
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}/*display com valor inline-block. O tamanho pode ser ajustado, tanto na largura, quanto na altura.
+    - padding: espaçamento externo, zero para cima e para baixo e 1,5% para os lados, para que o espaçamento lateral esteja dentro do percentual usamos uma propriedade chamada: boc-sizing:border-box.*/
+
+.produtos h2    {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao  {
+    font-size: 18px;
+}
+
+.produto-preco  {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
