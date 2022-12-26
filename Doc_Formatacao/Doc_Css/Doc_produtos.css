@@ -1,0 +1,18 @@
+header {
+    background: #BBBBBB;
+}/*configuração de cor do fundo, ou seja, background e a gente vai botar a cor #BBBBBB*/
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}/*Tem duas formas de exibir esse conteúdo, a primeira delas é inline e a segunda é a block.
+    Na forma inline, o conteúdo da tag é do tamanho do conteúdo que está ali, uma imagem, ela vai ter a largura e altura daquela imagem.
+    Quando uma tag é do tipo block, o tamanho dela vai ser sempre 100% da página.*/
+
+nav a {
+    text-transform: uppercase;/*A propriedade text-transform é a responsável pela transformação do texto para maiúsculo, quando usamos o valor uppercase*/
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}/*essa classe é chamada de navegação, isso é uma coisa muito comum no dia-a-dia, todos o site tem essa estrutura de links para serem navegados entre os sites. Dentro do cabeçalho, a gente vai envolver toda a nossa lista, todo nosso "ul" com a tag nav.*/
