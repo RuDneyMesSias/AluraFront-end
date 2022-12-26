@@ -27,7 +27,7 @@ body { /*# 0- ausência de cores; f - Máximo de cores */
     padding: 30px;
 }
 
-.titulo-plincipal {
+.titulo-principal {
     padding-left: 20px;/*definição de uma classe que será utilizada para estilizar a tag <h1> no CSS*/
 }
 
